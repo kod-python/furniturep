@@ -1,0 +1,661 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    /* transition: all 1s linear; */
+    
+}
+/* universal */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+/* iniversal ends here */
+
+/* nav section starts here */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(223, 218, 218);
+    padding: 28px;
+   position: fixed;
+    width: 100%; 
+    z-index: 1;
+    
+
+}
+
+.chair-furn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul{
+  display: flex;
+ 
+}
+
+
+ .fa-chair{
+    color: goldenrod;
+    font-size: 2rem;
+    
+}
+
+.fa-cart-shopping{
+    font-size: 2rem;
+}
+
+.fa-user{
+    font-size: 2rem;
+    padding-left: 20px;
+}
+nav ul a{
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-down img{
+    gap: -20px;
+}
+
+nav h2{
+   font-size: 2rem;
+}
+
+.nav-down{
+    background-image: url("./images/home-slide1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    padding: 20%;
+ font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-down h2{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+ 
+
+}
+
+.nav-down p{
+    text-align: center;
+    color: white;
+    font-size: 1.9rem;
+    color: darkgoldenrod;
+}
+
+/* nav section ends here */
+
+/* about section starts here */
+#about .about-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 50px;
+}
+
+#about .abouth1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#about .abouth1 span{
+    color: goldenrod;
+}
+#about img{
+    width: 700px;
+}
+
+#about .about-down h2{
+    font-size: 2rem;
+}
+#about .about-down h3{
+    font-size: 1.6rem;
+    color: grey;
+}
+
+#about .about-down{
+    line-height: 3rem;
+}
+#about .about-down p{
+    font-size: 1.3rem;
+    color: grey;
+}
+#about .btn{
+
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.1rem;
+}
+
+#about .btn:hover{
+    letter-spacing: .2rem;
+}
+
+/* about section ends here */
+
+/* service section starts here */
+
+#service .service-top{
+    margin-top: 20px;
+    background-color: ;
+    
+}
+
+#service .text-header{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#service .text-header span{
+    color: goldenrod;
+}
+
+#service .service-down1{
+    display: flex;
+}
+
+#service .service-down{
+    border: 1px solid ;
+    margin: 10px;
+    padding: 50px;
+    text-align: center;
+    height: 500px;
+    
+}
+
+#service .service-down h2{
+    font-size:2rem;
+    padding-bottom: 10px;
+}
+
+#service .service-down p{
+    font-size: 1.3rem;
+}
+
+#service .service-top p{
+    padding-bottom: 30px;
+}
+
+#service .btn{
+  padding: 1rem 3rem;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: inline-block;
+   
+
+}
+
+#service .btn:hover{
+letter-spacing: .2rem;
+}
+
+
+/* service section ends here */
+
+/* product section starts here */
+#product .product-top{
+    margin-top: 20px;
+}
+
+#product .text-header{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#product .text-header span{
+    color: goldenrod;
+}
+
+#product .product-down1{
+    display: flex;
+}
+
+#product .product-down{
+    border: 1px solid ;
+    margin: 10px;
+    padding: 50px;
+    text-align: center;
+    height: 500px;
+    width: 750px;
+    
+   
+}
+
+
+#product .img-resp{
+    transition: 1s linear;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+}
+
+
+#product .img-resp:hover{
+    transform: translate3d(10px,0px,20px);  
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+
+#product .product-down h2{
+    font-size:2rem;
+    padding-bottom: 10px;
+}
+
+#product .product-down p{
+    font-size: 1.3rem;
+}
+
+#product .product-top p{
+    padding-bottom: 30px;
+}
+
+
+
+
+#product .product-down2{
+    display: flex;
+   
+
+}
+
+
+
+/* #product .fa-eye::before{
+    content: "\f06e";
+    position:absolute;
+top:1.5rem;
+border-radius:50%;
+height:5rem;
+width:5rem;
+line-height:5rem;
+font-size:3rem;
+}
+
+
+
+#product .fa-heart::before{
+    content: "\f004";
+    position:absolute;
+top:1.5rem;
+border-radius:50%;
+height:5rem;
+width:5rem;
+line-height:5rem;
+font-size:3rem;
+}
+
+
+#product .product-down .fa-eye:hover{ 
+    background: black;
+    color: white;
+} */
+
+#product .product-down p span{
+    text-decoration: line-through;
+    font-size: 1rem;
+}
+
+#product .product-down p{
+    margin-top: 10px;
+}
+
+
+
+#product .product-down .fa-star{
+    color: goldenrod;
+}
+
+
+
+#product .product-down .fa-star-half{
+    color: goldenrod;
+}
+
+
+
+#product .btn{
+   padding: 1rem 3rem;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: inline-block;
+   
+
+}
+
+#product .btn:hover{
+letter-spacing: .2rem;
+}
+
+/* prodcut section ends here */
+
+
+/* our team starts here */
+#team .team-top{
+    margin-top: 20px;
+   
+   
+   
+}
+
+#team .text-header{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#team .text-header span{
+    color: goldenrod;
+}
+
+#team .team-down1{
+    display: flex;
+}
+
+#team .team-down{
+    border: 1px solid ;
+    margin: 10px;
+   
+    text-align: center;
+    height: 500px;
+    width: 750px;
+    
+   
+}
+
+
+#team .team-down h2{
+    font-size:1.7rem;
+    color: grey;
+    text-transform: capitalize;
+    
+}
+
+#team .team-down p{
+    font-size: 1.3rem;
+}
+
+#team .h2p{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* team section ends here */
+
+/* blog section starts here */
+#blog .blog-top{
+    margin-top: 20px;
+
+    
+}
+
+#blog .text-header{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#blog .text-header span{
+    color: goldenrod;
+}
+
+#blog .blog-down1{
+    display: flex;
+}
+
+#blog .blog-down{
+    border: 1px solid ;
+    margin: 10px;
+    width: 32.5%;
+    
+    
+    text-align: center;
+    height: 566px;
+    
+    
+}
+
+#blog hr{
+  
+    width: 350px;
+    margin-left: 30px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 15px;
+    
+}
+
+#blog .blog-down h2{
+    font-size:1.5rem;
+   
+    text-align: justify;
+   padding: 20px;
+}
+
+
+#blog .blog-down p{
+    font-size: 1.2rem;
+    text-align: justify;
+   
+    padding: 20px;
+    
+}
+
+
+#blog .btn{
+   padding: 1rem 3rem;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: inline-block;
+    /* margin-left: -198px; */
+
+    
+   
+}
+
+
+
+
+#blog input{
+    border: none;
+    
+}
+
+#blog .iclass{
+   display: flex; 
+   /* justify-content: space-between; */
+   align-items: center;
+ 
+ 
+    
+}
+
+#blog .img-resp{
+    transition: 1s linear;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+}
+
+#blog .img-resp:hover{
+ 
+    transform: translate3d(10px,0px,20px);  
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+
+
+
+
+#blog .img-resp2{
+    transition: 1s linear;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+}
+
+#blog .img-resp2:hover{
+ 
+    transform: translate3d(10px,0px,20px);  
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+
+
+
+#blog .img-resp1{
+    transition: 1s linear;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0);
+}
+
+#blog .img-resp1:hover{
+ 
+    transform: translate3d(10px,0px,20px);  
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+
+
+
+
+#blog .blog-down .fa-calendar{
+padding-left: 10px;
+}
+
+
+#blog .blog-down .fa-user{
+    font-size: 1rem;
+    padding-left: 180px;
+}
+
+
+#blog .btn:hover{
+letter-spacing: .1rem;
+}
+
+/* blog section ends here */
+
+
+/* contact section starts here */
+#contact .contact-top .contact-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    
+    
+}
+
+#contact .contact-top{
+    margin-top: 80px;
+    background-color: rgb(243, 237, 237);
+    width: 100%;
+}
+#contact h2{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+#contact h2 span{
+    color: goldenrod;
+}
+
+#contact form{
+    border: 1px solid;
+    padding: 30px;
+    margin: 10px;
+    height: 770px;
+    background-color:rgb(243, 237, 237) ;
+ 
+}
+
+
+
+#contact form input{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    width: 570px;
+    padding: 20px;
+    font-size: 1.5rem;
+    margin: 10px 4px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color:rgb(243, 237, 237) ;
+    
+}
+
+#contact form h2{
+    padding-bottom: 20px;
+    font-size: 2rem;
+}
+
+#contact label{
+    font-size: 1.5rem;
+    color: goldenrod;
+}
+
+#contact img{
+    width: 700px;
+    height: 700px;
+}
+
+textarea{
+    width: 596px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color:rgb(243, 237, 237) ;
+    
+}
+
+#contact .btn{
+  padding: 1rem 3rem;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+/* contact section ends here */
+
+
+/* footer */
+footer{
+    text-align: center;
+    margin-top: 20px;
+    background-color: #5f5656;
+    font-size: 1.6rem;
+    color: white;
+}
+/* footer ends here */
